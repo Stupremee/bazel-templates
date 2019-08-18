@@ -31,11 +31,6 @@ junit_platform_java_repositories(
     version = JUNIT_PLATFORM_VERSION,
 )
 
-maven_install(
-    artifacts = [
-    ],
-    fetch_sources = True,
-    repositories = [
-        "http://central.maven.org/maven2/",
-    ],
-)
+load("//:tools/dependencies.bzl", "install_maven_dependencies")
+
+install_maven_dependencies()
