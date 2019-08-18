@@ -16,7 +16,7 @@ http_archive(
 load("@rules_jvm_external//:defs.bzl", "maven_install")
 
 # Load JUnit5
-load("//:third_party/junit5.bzl", "junit_jupiter_java_repositories", "junit_platform_java_repositories")
+load("//:tools/junit5.bzl", "junit_jupiter_java_repositories", "junit_platform_java_repositories")
 
 # Initialize JUnit5
 JUNIT_JUPITER_VERSION = "5.5.1"
