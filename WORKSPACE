@@ -12,9 +12,6 @@ http_archive(
     url = "https://github.com/bazelbuild/rules_jvm_external/archive/%s.zip" % RULES_JVM_EXTERNAL_TAG,
 )
 
-# Load jvm external rules
-load("@rules_jvm_external//:defs.bzl", "maven_install")
-
 # Load JUnit5
 load("//:tools/junit5.bzl", "junit_jupiter_java_repositories", "junit_platform_java_repositories")
 
