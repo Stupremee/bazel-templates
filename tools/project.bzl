@@ -1,0 +1,6 @@
+GROUP_ID = "com.github.stupremee"
+ARTIFACT_ID = "template"
+ARTIFACT_NAME = "Java Bazel Template"
+VERSION = "0.1.0"
+DESCRIPTION = "My personal Bazel workspace template for Java project"
+URL = "https://github.com/Stupremee/java-bazel-template"

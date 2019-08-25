@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <groupId>{group_id}</groupId>
+  <artifactId>{artifact_id}</artifactId>
+  <name>{artifact_name}</name>
+  <version>{project_version}</version>
+  <description>{project_description}</description>
+  <url>{project_url}</url>
+
+  <licenses>
+    <license>
+      <name>GNU GPL 3</name>
+      <url>https://www.gnu.org/licenses/gpl-3.0.en.html</url>
+    </license>
+  </licenses>
+
+  <dependencies>
+    {generated_bzl_deps}
+  </dependencies>
+</project>

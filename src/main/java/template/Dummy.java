@@ -1,4 +1,4 @@
-package src.main.java;
+package template;
 
 /**
  * @author Stu (https://github.com/Stupremee)
