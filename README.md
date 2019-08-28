@@ -1,3 +1,3 @@
-# Bazel + Java Template
+# Bazel Templates
 
-My personal template for projects which use Java + Bazel
+My personal templates for projects which use Bazel
