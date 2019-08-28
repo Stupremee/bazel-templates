@@ -8,7 +8,7 @@ My personal templates for projects which use Bazel
 - Basic Bazel knowledge
 - Your favourite text editor
 
-## How to use
+## Usage
 
 1. Get the template (click on "Use this template")
 2. Define project variables in the `tools/project.bzl` file
