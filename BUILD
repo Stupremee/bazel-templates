@@ -1,11 +1,21 @@
 load("//:tools/pom_file.bzl", "default_pom_file")
 load("//:tools/junit5.bzl", "java_junit5_test")
+load("//:tools/javadoc.bzl", "javadoc_library")
+
+DUMMY_SRCS = [
+    "src/main/java/template/Dummy.java",
+]
 
 java_library(
     name = "dummy_library",
-    srcs = [
-        "src/main/java/template/Dummy.java",
-    ],
+    srcs = DUMMY_SRCS,
+)
+
+javadoc_library(
+    name = "dummy_javadoc",
+    srcs = DUMMY_SRCS,
+    root_packages = ["template"],
+    deps = [":dummy_library"],
 )
 
 default_pom_file(
