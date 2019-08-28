@@ -18,4 +18,4 @@ My personal templates for projects which use Bazel
 
 ## License
 
-Distributed under the GNU GPL v3 license. See [LICENSE](../blob/java/LICENSE) for more information.
+Distributed under the GNU GPL v3 license. See [LICENSE](https://github.com/Stupremee/bazel-templates/blob/java/LICENSE) for more information.
